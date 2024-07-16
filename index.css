@@ -19,6 +19,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .logo{
     color: #181818;
@@ -33,4 +34,15 @@ nav{
 .nav-items a{
     margin-right: 50px;
     text-decoration: none;    
+}
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
