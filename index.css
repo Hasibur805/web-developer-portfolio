@@ -75,6 +75,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section */
 
 .about{
@@ -94,6 +97,7 @@ main{
     color: #474747;
     font-size: 18px;
 }
+
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -106,4 +110,31 @@ main{
 .info-description{
     font-size: 18px;
     font-weight: 700;
+}
+ /* 2nd blog */
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba( 0, 0, 0, 0.6);
+    background-color: #fff;
+    
+    
+}
+.skills-description{
+    color: #474747;
+}
+/* resume-column section */
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+    color:#474747;
+
 }
