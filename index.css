@@ -200,8 +200,8 @@ footer{
     nav, .nav-items, .banner, .about-info-container, .skills-container, .resume-container, footer{
         flex-direction: column;
     }   
-    .banner, .profile-pic, .banner-content {
-        width: 100%;
+    .banner,.banner .profile-pic, .banner-content {
+        width: 95%;
     }
     .banner, nav, .about, #what-i-do-description, footer{
         padding: 20px;
